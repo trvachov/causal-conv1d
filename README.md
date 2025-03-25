@@ -1,3 +1,11 @@
+# Fork explanation
+
+This is a fork of https://github.com/Dao-AILab/causal-conv1d with a patched version of https://github.com/Dao-AILab/causal-conv1d/pull/45 on top.
+
+This fork is pulled into the BioNeMo Framework to enable tentative Blackwell support (https://github.com/NVIDIA/bionemo-framework/blob/main/Dockerfile)
+
+Once the origin repository enables Blackwell support, we will remove this fork.
+
 # Causal depthwise conv1d in CUDA with a PyTorch interface
 
 Features:
